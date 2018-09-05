@@ -1,0 +1,18 @@
+{
+  "name": "r.kozin/mws-finances",
+  "description": "PHP MWS Finances SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kozin",
+      "email": "r.kozin@itprosteer.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "MwsFinances\\": "src/"
+    }
+  }
+}
