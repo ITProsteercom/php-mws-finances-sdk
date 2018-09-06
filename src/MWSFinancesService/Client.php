@@ -3,17 +3,17 @@
 namespace MwsFinances;
 
 use Exception;
-use MWSFinancesService_Model_GetServiceStatusRequest;
-use MWSFinancesService_Model_GetServiceStatusResponse;
-use MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenRequest;
-use MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
-use MWSFinancesService_Model_ListFinancialEventGroupsRequest;
-use MWSFinancesService_Model_ListFinancialEventGroupsResponse;
-use MWSFinancesService_Model_ListFinancialEventsByNextTokenRequest;
-use MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
-use MWSFinancesService_Model_ListFinancialEventsRequest;
-use MWSFinancesService_Model_ListFinancialEventsResponse;
-use MWSFinancesService_Model_ResponseHeaderMetadata;
+use MwsFinances\Model\MWSFinancesService_Model_GetServiceStatusRequest;
+use MwsFinances\Model\MWSFinancesService_Model_GetServiceStatusResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenRequest;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsRequest;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenRequest;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsRequest;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ResponseHeaderMetadata;
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
