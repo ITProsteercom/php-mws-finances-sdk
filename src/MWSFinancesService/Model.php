@@ -204,7 +204,8 @@ abstract class MWSFinancesService_Model
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./*[local-name()='$fieldName']", $dom);
                     if ($elements->length == 1) {
-                        $this->_fields[$fieldName]['FieldValue'] = new $fieldType($elements->item(0));
+                        $className = "MwsFinances\\Model\\" . $fieldType;
+                        $this->_fields[$fieldName]['FieldValue'] = new $className($elements->item(0));
                     }
                 } else {
                     if ($fieldType[0] == "@") {
