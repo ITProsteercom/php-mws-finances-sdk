@@ -1,10 +1,15 @@
 <?php namespace MwsFinances;
 
-use MWSFinancesService_Model_GetServiceStatusResponse;
-use MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
-use MWSFinancesService_Model_ListFinancialEventGroupsResponse;
-use MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
-use MWSFinancesService_Model_ListFinancialEventsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_GetServiceStatusResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_GetServiceStatusResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
+use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsResponse;
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.

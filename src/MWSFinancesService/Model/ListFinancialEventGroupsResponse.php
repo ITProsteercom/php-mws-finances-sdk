@@ -17,6 +17,8 @@
  * Generated: Thu Mar 15 07:12:28 GMT 2018
  */
 
+use DOMDocument;
+use DOMXPath;
 use MwsFinances\MWSFinancesService_Model;
 
 /**

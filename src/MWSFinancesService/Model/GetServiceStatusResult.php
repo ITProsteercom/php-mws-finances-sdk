@@ -17,6 +17,7 @@
  * Generated: Thu Mar 15 07:12:28 GMT 2018
  */
 
+use MongoDB\BSON\Timestamp;
 use MwsFinances\MWSFinancesService_Model;
 
 /**
