@@ -183,7 +183,8 @@ abstract class MWSFinancesService_Model
                     }
                     if ($elements->length >= 1) {
                         foreach ($elements as $element) {
-                            $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
+                            $className = "MwsFinances\\Model\\" . $fieldType[0];
+                            $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                         }
                     }
                 } else {
