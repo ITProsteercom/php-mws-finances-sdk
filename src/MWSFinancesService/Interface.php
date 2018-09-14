@@ -5,12 +5,6 @@ use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTok
 use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsResponse;
 use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
 use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsResponse;
-use MwsFinances\Model\MWSFinancesService_Model_GetServiceStatusResponse;
-use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsByNextTokenResponse;
-use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventGroupsResponse;
-use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsByNextTokenResponse;
-use MwsFinances\Model\MWSFinancesService_Model_ListFinancialEventsResponse;
-
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
